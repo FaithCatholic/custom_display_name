@@ -36,7 +36,7 @@ function custom_display_name_user_format_name_alter(&$name, $account) {
     $output = preg_replace('!\s+!', ' ', $output); // no repeating spaces
 
     if ($output != '') {
-      $name = t('@name', array('@name' => $output));
+      $name = t($output);
     }
 
   }
