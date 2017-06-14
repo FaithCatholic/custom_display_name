@@ -1,3 +1,9 @@
 { 
-"name": "faithcatholic/custom_display_name"
+"name": "faithcatholic/custom_display_name",
+  "type": "drupal-module",
+  "description": "Allows users to tweak user display name.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "minimum-stability": "dev",
+  "require": { }
 }
