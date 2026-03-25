@@ -13,8 +13,9 @@ class UserController extends UserControllerBase {
 
   /**
    * {@inheritdoc}
+   * * Fixed for PHP 8.4: Added explicit nullability '?' to the $user parameter.
    */
-  public function userTitle(UserInterface $user = NULL) {
+  public function userTitle(?UserInterface $user = NULL) {
     return $user ? ['#markup' => $user->getDisplayName(), '#allowed_tags' => Xss::getHtmlTagList()] : '';
   }
 

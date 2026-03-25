@@ -1,5 +1,5 @@
 name: Custom display name
 type: module
 description: Assign one or more input fields to act as a custom user display name.
-core_version_requirement: ^8 || ^9 || ^10
+core_version_requirement: ^8 || ^9 || ^10 || ^11
 package: Custom
